@@ -25,13 +25,7 @@
     - 마지막 섹션의 2번째 코드 셀의 경우 finetuning이 완료된 KoBERT, HanBERT 모델을 kaggle data를 통해 prediction하는 작업을 함
       - 현재 노트북에서는, kaggle data의 이름은 ko_data.txt, predict 결과 label이 저장되는파일은 ko_data_out.txt가 됨 (11187줄)
     - 마지막 섹션의 3번째 코드 셀은 3개의 모델 모두가 사용. prediction된 결과를 제출용 csv로 변환하는 파일
-      - ex)           Id  Predicted
-            1         0   1
-            1         1   1
-            0     =>  2   0
-            0         3   0
-            1         4   1
-            ...
+      - 해당 코드 셀을 실행한 후, 최종적으로 csv 파일 헤더에 "Id"라는 문자열을 직접 손으로 추가한 후 제출했습니다.
 
 
 
